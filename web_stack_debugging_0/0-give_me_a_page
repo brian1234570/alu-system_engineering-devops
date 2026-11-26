@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Fix Apache so it serves Hello Holberton
+echo "Hello Holberton" > /var/www/html/index.html
+service apache2 start
